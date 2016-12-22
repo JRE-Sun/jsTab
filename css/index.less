@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@li-width:60px;
+@li-height:48px;
+ul{
+    width: 4 * @li-width;
+    height: @li-height;
+    line-height: @li-height;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 150px;
+    // background: red;
+    li{
+        width: @li-width;
+        height: @li-height;
+        float: left;
+        text-align: center;
+    }
+}
+div{
+    width: 4 * @li-width;
+     margin: 0 auto;
+     display: none;
+}

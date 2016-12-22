@@ -1,0 +1,27 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  width: 240px;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid red;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+ul li {
+  width: 60px;
+  height: 48px;
+  float: left;
+  text-align: center;
+}
+div {
+  width: 240px;
+  margin: 0 auto;
+  display: none;
+}
